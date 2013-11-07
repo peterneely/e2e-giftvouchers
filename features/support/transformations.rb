@@ -1,9 +1,17 @@
 include Impersonators
 
-Transform /^a non AU site$/ do |site|
-  non_au_site
+Transform /^UK site$/ do |site|
+  uk_site
 end
 
-Transform /^the AU site$/ do |site|
+Transform /^DE site$/ do |site|
+  de_site
+end
+
+Transform /^US site$/ do |site|
+  us_site
+end
+
+Transform /^AU site$/ do |site|
   au_site
 end

@@ -3,10 +3,13 @@ Feature: Choose a gift voucher
   I would like to be able to choose a gift voucher
   so that I can make a gift to my friends
 
-  Scenario: Voucher types for non AU customers
-    Given a customer is choosing a gift voucher on a non AU site
-    Then the customer should be able to choose either an email or a paper voucher
+  Scenario Outline: Vouchers available by locale
+    Given a customer is choosing a gift voucher on <locale>
+  #Then the customer should be able to choose <vouchers_available>
 
-  Scenario: Voucher types for AU customers
-    Given a customer is choosing a gift voucher on the AU site
-    Then the customer should be able to choose only an email voucher
+  Examples: Regional sites and vouchers available
+    | locale | vouchers_available |
+    | UK     | email or paper     |
+    | DE     | email or paper     |
+    | US     | email or paper     |
+    | AU     | email              |

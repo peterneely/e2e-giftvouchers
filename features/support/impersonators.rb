@@ -1,6 +1,14 @@
 module Impersonators
-  def non_au_site
-    @non_au_site ||= NonAuSite.new(self)
+  def uk_site
+    @uk_site ||= UkSite.new(self)
+  end
+
+  def de_site
+    @de_site ||= DeSite.new(self)
+  end
+
+  def us_site
+    @us_site ||= UsSite.new(self)
   end
 
   def au_site

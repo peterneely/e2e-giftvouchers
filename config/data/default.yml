@@ -1,2 +1,5 @@
-base_page:
-  url: ~randomize [url_uk
+url_promotions:
+  uk: gbpdefault
+  de: dmdefault
+  us: usddefault
+  au: auddefault
