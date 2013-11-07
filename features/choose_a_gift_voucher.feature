@@ -5,11 +5,11 @@ Feature: Choose a gift voucher
 
   Scenario Outline: Vouchers available by locale
     Given a customer is choosing a gift voucher on <locale>
-  #Then the customer should be able to choose <vouchers_available>
+    #Then the customer should be able to choose <vouchers_available>
 
-  Examples: Regional sites and vouchers available
-    | locale | vouchers_available |
-    | UK     | email or paper     |
-    | DE     | email or paper     |
-    | US     | email or paper     |
-    | AU     | email              |
+    Examples: Regional sites and vouchers available
+      | locale | vouchers_available |
+      | UK     | email or paper     |
+      | DE     | email or paper     |
+      | US     | email or paper     |
+      | AU     | email              |

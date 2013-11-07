@@ -1,10 +1,9 @@
 require 'watir-webdriver'
 
 Before do
-  @browser = Watir::Browser.new :firefox
-  #@browser.goto("#{FigNewton.base_url}/default.aspx?q=#{FigNewton.default_promotion}|||||||||||||||")
+  @browser = Watir::Browser.new :chrome
 end
 
 After do
-  @browser.close
+  #@browser.close
 end

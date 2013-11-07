@@ -8,7 +8,6 @@ require 'fig_newton'
 require_rel 'pages'
 
 class CustomWorld
-  #include DataMagic
   include PageObject::PageFactory
 end
 
@@ -19,10 +18,6 @@ end
 #PageObject::PageFactory.routes = {
 #    :default => [
 #        [HomePage, :checkout],
-#        [ShoppingBag, :checkout],
-#        [CheckoutPage, :checkout],
-#        [DeliveryPage, :proceed_to_payment],
-#        [PaymentPage, :confirm],
-#        [LoginPage, :login]
+#        [GiftVoucherPage]
 #    ]
 #}
