@@ -3,8 +3,9 @@ class HomePage # < BasePage
   include DataMagic
 
   def set_locale(locale)
-    url_promotion = data_for(:url_promotions)[locale.downcase]
-    url_for_locale = "#{FigNewton.base_url}/default.aspx?q=#{url_promotion}|||||||||||||||"
-    navigate_to url_for_locale
+    $locale = locale.downcase!
+    locale_promotion = data_for(:locale_ids)[$locale]
+    url = "#{FigNewton.base_url}/default.aspx?q=#{locale_promotion}|||||||||||||||"
+    navigate_to url
   end
 end

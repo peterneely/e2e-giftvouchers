@@ -1,5 +1,12 @@
-url_promotions:
+locale_ids:
   uk: gbpdefault
   de: dmdefault
   us: usddefault
   au: auddefault
+
+image_names:
+  uk: [gv_home_email-uk, gv_home_paper-uk]
+  de: [gv_home_email-de, gv_home_paper-de]
+  us: [gv_home_email-us, gv_home_paper-us]
+  au: [gv_home_email-uk]
+
