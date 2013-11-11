@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5f50cb9b-6a45-404b-ae70-792393fea9d2" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/step_definitions/choose_a_gift_voucher_steps.rb" afterPath="$PROJECT_DIR$/features/step_definitions/choose_a_gift_voucher_steps.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/support/pages/gift_voucher_page.rb" afterPath="$PROJECT_DIR$/features/support/pages/gift_voucher_page.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/choose_a_gift_voucher.feature" afterPath="$PROJECT_DIR$/features/choose_a_gift_voucher.feature" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="gift-vouchers-bdd.iws" />
@@ -90,10 +89,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="choose_a_gift_voucher.feature" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="choose_a_gift_voucher.feature" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/features/choose_a_gift_voucher.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="72" selection-start="148" selection-end="148" vertical-scroll-proportion="0.0">
+            <state line="15" column="0" selection-start="549" selection-end="549" vertical-scroll-proportion="0.478424">
               <folding />
             </state>
           </provider>
@@ -108,10 +107,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="choose_a_gift_voucher_steps.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="choose_a_gift_voucher_steps.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/features/step_definitions/choose_a_gift_voucher_steps.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="93" selection-start="277" selection-end="277" vertical-scroll-proportion="0.15947467">
+            <state line="5" column="93" selection-start="277" selection-end="277" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -182,8 +181,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1944" />
-    <option name="y" value="28" />
+    <option name="x" value="2057" />
+    <option name="y" value="123" />
     <option name="width" value="1728" />
     <option name="height" value="967" />
   </component>
@@ -723,7 +722,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1944" y="28" width="1728" height="967" extended-state="0" />
+    <frame x="2057" y="123" width="1728" height="967" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -907,16 +906,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/features/choose_a_gift_voucher.feature">
+    <entry file="file://$PROJECT_DIR$/features/step_definitions/choose_a_gift_voucher_steps.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="72" selection-start="148" selection-end="148" vertical-scroll-proportion="0.0">
+        <state line="5" column="93" selection-start="277" selection-end="277" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/features/step_definitions/choose_a_gift_voucher_steps.rb">
+    <entry file="file://$PROJECT_DIR$/features/choose_a_gift_voucher.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="93" selection-start="277" selection-end="277" vertical-scroll-proportion="0.15947467">
+        <state line="15" column="0" selection-start="549" selection-end="549" vertical-scroll-proportion="0.478424">
           <folding />
         </state>
       </provider>
