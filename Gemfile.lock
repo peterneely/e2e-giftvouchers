@@ -55,6 +55,7 @@ PLATFORMS
 
 DEPENDENCIES
   cucumber
+  faker
   fig_newton
   page-object
   page_navigation

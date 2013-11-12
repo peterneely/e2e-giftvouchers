@@ -10,3 +10,9 @@ image_names:
   us: [gv_home_email-us, gv_home_paper-us]
   au: [gv_home_email-uk]
 
+gift_voucher_email_page:
+  recipient_name: ~full_name
+  customer_name: ~full_name
+  delivery_date: ~Faker::Date.forward(5)
+  message: ~words(number=20)
+
