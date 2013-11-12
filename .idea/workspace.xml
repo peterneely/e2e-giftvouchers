@@ -2,17 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5f50cb9b-6a45-404b-ae70-792393fea9d2" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/choose_a_gift_voucher.feature" afterPath="$PROJECT_DIR$/features/choose_a_gift_voucher.feature" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/step_definitions/choose_a_gift_voucher_steps.rb" afterPath="$PROJECT_DIR$/features/step_definitions/choose_a_gift_voucher_steps.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/support/pages/home_page.rb" afterPath="$PROJECT_DIR$/features/support/pages/home_page.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="gift-vouchers-bdd.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/choose_a_gift_voucher.feature" changelist="5f50cb9b-6a45-404b-ae70-792393fea9d2" time="1383838307160" ignored="false" />
-    <file path="/default.yml" changelist="5f50cb9b-6a45-404b-ae70-792393fea9d2" time="1383909969222" ignored="false" />
-    <file path="/Dummy.txt" changelist="5f50cb9b-6a45-404b-ae70-792393fea9d2" time="1383841584983" ignored="false" />
-    <file path="/choose_a_gift_voucher_steps.rb" changelist="5f50cb9b-6a45-404b-ae70-792393fea9d2" time="1384187632582" ignored="false" />
+    <file path="/default.yml" changelist="5f50cb9b-6a45-404b-ae70-792393fea9d2" time="1384248022230" ignored="false" />
+    <file path="/Dummy.txt" changelist="5f50cb9b-6a45-404b-ae70-792393fea9d2" time="1384253964640" ignored="false" />
+    <file path="/choose_a_gift_voucher_steps.rb" changelist="5f50cb9b-6a45-404b-ae70-792393fea9d2" time="1384251622688" ignored="false" />
     <file path="/transformations.rb" changelist="5f50cb9b-6a45-404b-ae70-792393fea9d2" time="1383826696857" ignored="false" />
-    <file path="$PROJECT_DIR$/../qantas-bdd/features/support/transformations.rb" changelist="5f50cb9b-6a45-404b-ae70-792393fea9d2" time="1383818390400" ignored="false" />
+    <file path="$PROJECT_DIR$/../qantas-bdd/features/support/transformations.rb" changelist="5f50cb9b-6a45-404b-ae70-792393fea9d2" time="1384252794241" ignored="false" />
     <file path="$PROJECT_DIR$/../qantas-bdd/features/support/pages/home_page.rb" changelist="5f50cb9b-6a45-404b-ae70-792393fea9d2" time="1383818390400" ignored="false" />
     <file path="$PROJECT_DIR$/../qantas-bdd/features/support/pages/login_page.rb" changelist="5f50cb9b-6a45-404b-ae70-792393fea9d2" time="1383818390400" ignored="false" />
     <file path="$PROJECT_DIR$/../qantas-bdd/features/support/modules/footer.rb" changelist="5f50cb9b-6a45-404b-ae70-792393fea9d2" time="1383818390400" ignored="false" />
@@ -22,14 +23,14 @@
     <file path="$PROJECT_DIR$/../qantas-bdd/features/step_definitions/display_qff_number_when_managing_my_account_steps.rb" changelist="5f50cb9b-6a45-404b-ae70-792393fea9d2" time="1383818390400" ignored="false" />
     <file path="$PROJECT_DIR$/../qantas-bdd/features/support/pages/shopping_bag.rb" changelist="5f50cb9b-6a45-404b-ae70-792393fea9d2" time="1383818390400" ignored="false" />
     <file path="$PROJECT_DIR$/../qantas-bdd/features/step_definitions/enter_qff_number_when_managing_account_steps.rb" changelist="5f50cb9b-6a45-404b-ae70-792393fea9d2" time="1383818390400" ignored="false" />
-    <file path="$PROJECT_DIR$/../qantas-bdd/features/step_definitions/enter_qff_number_when_checking_out_steps.rb" changelist="5f50cb9b-6a45-404b-ae70-792393fea9d2" time="1383818390400" ignored="false" />
+    <file path="$PROJECT_DIR$/../qantas-bdd/features/step_definitions/enter_qff_number_when_checking_out_steps.rb" changelist="5f50cb9b-6a45-404b-ae70-792393fea9d2" time="1384252794241" ignored="false" />
     <file path="/non_au_site.rb" changelist="5f50cb9b-6a45-404b-ae70-792393fea9d2" time="1383820943263" ignored="false" />
     <file path="/impersonators.rb" changelist="5f50cb9b-6a45-404b-ae70-792393fea9d2" time="1383827066455" ignored="false" />
     <file path="/site.rb" changelist="5f50cb9b-6a45-404b-ae70-792393fea9d2" time="1383819803531" ignored="false" />
     <file path="/au_site.rb" changelist="5f50cb9b-6a45-404b-ae70-792393fea9d2" time="1383827474438" ignored="false" />
-    <file path="/env.rb" changelist="5f50cb9b-6a45-404b-ae70-792393fea9d2" time="1383838724691" ignored="false" />
-    <file path="/home_page.rb" changelist="5f50cb9b-6a45-404b-ae70-792393fea9d2" time="1383843261681" ignored="false" />
-    <file path="/a.dummy" changelist="5f50cb9b-6a45-404b-ae70-792393fea9d2" time="1383834308333" ignored="false" />
+    <file path="/env.rb" changelist="5f50cb9b-6a45-404b-ae70-792393fea9d2" time="1384249889910" ignored="false" />
+    <file path="/home_page.rb" changelist="5f50cb9b-6a45-404b-ae70-792393fea9d2" time="1384260409362" ignored="false" />
+    <file path="/a.dummy" changelist="5f50cb9b-6a45-404b-ae70-792393fea9d2" time="1384254008853" ignored="false" />
     <file path="/temp.rb" changelist="5f50cb9b-6a45-404b-ae70-792393fea9d2" time="1383826727823" ignored="false" />
     <file path="/site_factory.rb" changelist="5f50cb9b-6a45-404b-ae70-792393fea9d2" time="1383824950699" ignored="false" />
     <file path="C:/Developer/Code/Ruby/Transforms/features/users.feature" changelist="5f50cb9b-6a45-404b-ae70-792393fea9d2" time="1383825692582" ignored="false" />
@@ -38,11 +39,23 @@
     <file path="/uk_site.rb" changelist="5f50cb9b-6a45-404b-ae70-792393fea9d2" time="1383827699046" ignored="false" />
     <file path="/de_site.rb" changelist="5f50cb9b-6a45-404b-ae70-792393fea9d2" time="1383827470493" ignored="false" />
     <file path="/us_site.rb" changelist="5f50cb9b-6a45-404b-ae70-792393fea9d2" time="1383827466893" ignored="false" />
-    <file path="/hooks.rb" changelist="5f50cb9b-6a45-404b-ae70-792393fea9d2" time="1383841660472" ignored="false" />
+    <file path="/hooks.rb" changelist="5f50cb9b-6a45-404b-ae70-792393fea9d2" time="1384260466411" ignored="false" />
     <file path="/uk_site.yml" changelist="5f50cb9b-6a45-404b-ae70-792393fea9d2" time="1383838123707" ignored="false" />
-    <file path="/gift_voucher_page.rb" changelist="5f50cb9b-6a45-404b-ae70-792393fea9d2" time="1384187924900" ignored="false" />
+    <file path="/gift_voucher_page.rb" changelist="5f50cb9b-6a45-404b-ae70-792393fea9d2" time="1384248960506" ignored="false" />
     <file path="/Ruby Console" changelist="5f50cb9b-6a45-404b-ae70-792393fea9d2" time="1383917010878" ignored="false" />
-    <file path="/gift_voucher_email_page.rb" changelist="5f50cb9b-6a45-404b-ae70-792393fea9d2" time="1384188189643" ignored="false" />
+    <file path="/gift_voucher_email_page.rb" changelist="5f50cb9b-6a45-404b-ae70-792393fea9d2" time="1384248522206" ignored="false" />
+    <file path="/helpers.rb" changelist="5f50cb9b-6a45-404b-ae70-792393fea9d2" time="1384249802732" ignored="false" />
+    <file path="$PROJECT_DIR$/../qantas-bdd/features/support/env.rb" changelist="5f50cb9b-6a45-404b-ae70-792393fea9d2" time="1384252794241" ignored="false" />
+    <file path="$PROJECT_DIR$/../qantas-bdd/features/support/hooks.rb" changelist="5f50cb9b-6a45-404b-ae70-792393fea9d2" time="1384252794241" ignored="false" />
+    <file path="$PROJECT_DIR$/../qantas-bdd/features/support/pages/checkout_page.rb" changelist="5f50cb9b-6a45-404b-ae70-792393fea9d2" time="1384252794241" ignored="false" />
+    <file path="$PROJECT_DIR$/../qantas-bdd/features/support/pages/base_page.rb" changelist="5f50cb9b-6a45-404b-ae70-792393fea9d2" time="1384252794241" ignored="false" />
+    <file path="$PROJECT_DIR$/../qantas-bdd/features/support/pages/delivery_page.rb" changelist="5f50cb9b-6a45-404b-ae70-792393fea9d2" time="1384252794241" ignored="false" />
+    <file path="$PROJECT_DIR$/../qantas-bdd/features/support/pages/product_detail_page.rb" changelist="5f50cb9b-6a45-404b-ae70-792393fea9d2" time="1384252794241" ignored="false" />
+    <file path="$PROJECT_DIR$/../qantas-bdd/config/data/default.yml" changelist="5f50cb9b-6a45-404b-ae70-792393fea9d2" time="1384252794241" ignored="false" />
+    <file path="$PROJECT_DIR$/../qantas-bdd/features/step_definitions/common_steps.rb" changelist="5f50cb9b-6a45-404b-ae70-792393fea9d2" time="1384252794241" ignored="false" />
+    <file path="$PROJECT_DIR$/../qantas-bdd/features/support/pages/account_preferences_page.rb" changelist="5f50cb9b-6a45-404b-ae70-792393fea9d2" time="1384252794241" ignored="false" />
+    <file path="$PROJECT_DIR$/../qantas-bdd/features/support/pages/payment_page.rb" changelist="5f50cb9b-6a45-404b-ae70-792393fea9d2" time="1384252794241" ignored="false" />
+    <file path="$PROJECT_DIR$/../qantas-bdd/features/support/pages/change_details_page.rb" changelist="5f50cb9b-6a45-404b-ae70-792393fea9d2" time="1384252794241" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,28 +75,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="gift_voucher_page.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/features/support/pages/gift_voucher_page.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="47" selection-start="277" selection-end="277" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="home_page.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/features/support/pages/home_page.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="18" selection-start="282" selection-end="282" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="hooks.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/features/support/hooks.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="47" selection-start="76" selection-end="76" vertical-scroll-proportion="0.0">
+            <state line="9" column="95" selection-start="252" selection-end="252" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -92,16 +87,7 @@
       <file leaf-file-name="choose_a_gift_voucher.feature" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/features/choose_a_gift_voucher.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="0" selection-start="549" selection-end="549" vertical-scroll-proportion="0.478424">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="default.yml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/data/default.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="16" selection-start="19" selection-end="44" vertical-scroll-proportion="0.0">
+            <state line="10" column="82" selection-start="404" selection-end="404" vertical-scroll-proportion="0.31894934">
               <folding />
             </state>
           </provider>
@@ -110,25 +96,25 @@
       <file leaf-file-name="choose_a_gift_voucher_steps.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/features/step_definitions/choose_a_gift_voucher_steps.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="93" selection-start="277" selection-end="277" vertical-scroll-proportion="0.0">
+            <state line="8" column="27" selection-start="271" selection-end="271" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="gift_voucher_email_page.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/features/support/pages/gift_voucher_email_page.rb">
+      <file leaf-file-name="hooks.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/features/support/hooks.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="13" selection-start="106" selection-end="106" vertical-scroll-proportion="0.0">
+            <state line="6" column="28" selection-start="90" selection-end="90" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="env.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/features/support/env.rb">
+      <file leaf-file-name="impersonators.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/features/support/impersonators.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="6" selection-start="187" selection-end="187" vertical-scroll-proportion="0.0">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -138,6 +124,15 @@
         <entry file="file://$PROJECT_DIR$/config/environments/default.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state line="0" column="52" selection-start="52" selection-end="52" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="env.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/features/support/env.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="30" selection-start="161" selection-end="161" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -161,28 +156,28 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/features/support/impersonators/us_site.rb" />
         <option value="$PROJECT_DIR$/features/support/impersonators/de_site.rb" />
         <option value="$PROJECT_DIR$/features/support/impersonators/au_site.rb" />
-        <option value="$PROJECT_DIR$/config/environments/default.yml" />
         <option value="$PROJECT_DIR$/config/data/uk_site.yml" />
         <option value="$PROJECT_DIR$/features/support/modules/header.rb" />
         <option value="$PROJECT_DIR$/features/support/modules/footer.rb" />
         <option value="$PROJECT_DIR$/features/support/pages/base_page.rb" />
-        <option value="$PROJECT_DIR$/features/support/env.rb" />
-        <option value="$PROJECT_DIR$/features/support/pages/home_page.rb" />
         <option value="$PROJECT_DIR$/config/data/default.yml" />
-        <option value="$PROJECT_DIR$/features/support/hooks.rb" />
-        <option value="$PROJECT_DIR$/features/step_definitions/choose_a_gift_voucher_steps.rb" />
-        <option value="$PROJECT_DIR$/features/support/pages/gift_voucher_page.rb" />
         <option value="$PROJECT_DIR$/features/support/pages/gift_voucher_email_page.rb" />
+        <option value="$PROJECT_DIR$/features/support/pages/gift_voucher_page.rb" />
+        <option value="$PROJECT_DIR$/features/support/helpers.rb" />
+        <option value="$PROJECT_DIR$/features/step_definitions/choose_a_gift_voucher_steps.rb" />
+        <option value="$PROJECT_DIR$/features/support/env.rb" />
+        <option value="$PROJECT_DIR$/config/environments/default.yml" />
+        <option value="$PROJECT_DIR$/features/support/pages/home_page.rb" />
+        <option value="$PROJECT_DIR$/features/support/hooks.rb" />
         <option value="$PROJECT_DIR$/features/choose_a_gift_voucher.feature" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="2057" />
-    <option name="y" value="123" />
+    <option name="x" value="2056" />
+    <option name="y" value="56" />
     <option name="width" value="1728" />
     <option name="height" value="967" />
   </component>
@@ -235,12 +230,146 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="watir-webdriver (v0.6.4, ruby-1.9.3-p448) [gem]" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gift-vouchers-bdd" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="watir-webdriver (v0.6.4, ruby-1.9.3-p448) [gem]" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gift-vouchers-bdd" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="watir-webdriver (v0.6.4, ruby-1.9.3-p448) [gem]" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="watir-webdriver" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gift-vouchers-bdd" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="page-object (v0.9.2, ruby-1.9.3-p448) [gem]" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="lib" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gift-vouchers-bdd" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cucumber (v1.3.8, ruby-1.9.3-p448) [gem]" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gift-vouchers-bdd" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cucumber (v1.3.8, ruby-1.9.3-p448) [gem]" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cucumber" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gift-vouchers-bdd" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cucumber (v1.3.8, ruby-1.9.3-p448) [gem]" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cucumber" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="core_ext" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gift-vouchers-bdd" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cucumber (v1.3.8, ruby-1.9.3-p448) [gem]" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -562,7 +691,9 @@
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_RUNNER_PATH" VALUE="" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_RUNNER" VALUE="false" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SETTINGS_VERSION" VALUE="2" />
+      <RunnerSettings RunnerId="RubyDebugRunner" />
       <RunnerSettings RunnerId="RubyRunner" />
+      <ConfigurationWrapper RunnerId="RubyDebugRunner" />
       <ConfigurationWrapper RunnerId="RubyRunner" />
       <method />
     </configuration>
@@ -722,7 +853,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="2057" y="123" width="1728" height="967" extended-state="0" />
+    <frame x="2056" y="56" width="1728" height="967" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -804,62 +935,13 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="25" />
+      <option name="time" value="45" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Rakefile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/support/transformations.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="3" selection-start="209" selection-end="209" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Ruby193/lib/ruby/gems/1.9.1/gems/require_all-1.3.1/lib/require_all.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="133" column="34" selection-start="4464" selection-end="4464" vertical-scroll-proportion="0.33755276">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/support/pages/base_page.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="53" selection-start="148" selection-end="148" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/support/modules/header.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="36" selection-start="386" selection-end="386" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/features/support/modules/footer.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="34" selection-start="121" selection-end="121" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Ruby193/lib/ruby/gems/1.9.1/gems/page-object-0.9.2/lib/page-object.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="137" column="6" selection-start="3853" selection-end="3853" vertical-scroll-proportion="0.33208254">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/support/env.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="6" selection-start="187" selection-end="187" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -871,16 +953,51 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/features/support/pages/home_page.rb">
+    <entry file="file://$PROJECT_DIR$/features/support/transformations.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="18" selection-start="282" selection-end="282" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/features/support/hooks.rb">
+    <entry file="file://C:/Ruby193/lib/ruby/gems/1.9.1/gems/page-object-0.9.2/lib/page-object.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="47" selection-start="76" selection-end="76" vertical-scroll-proportion="0.0">
+        <state line="58" column="0" selection-start="2018" selection-end="2018" vertical-scroll-proportion="0.3326316">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Ruby193/lib/ruby/gems/1.9.1/gems/watir-webdriver-0.6.4/lib/watir-webdriver/wait.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="0" selection-start="656" selection-end="656" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Ruby193/lib/ruby/gems/1.9.1/gems/cucumber-1.3.8/lib/cucumber/core_ext/instance_exec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="69" column="0" selection-start="1990" selection-end="1990" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/support/pages/gift_voucher_email_page.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="91" selection-start="106" selection-end="106" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/support/pages/gift_voucher_page.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="34" selection-start="312" selection-end="312" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/support/pages/base_page.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -892,30 +1009,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/features/support/pages/gift_voucher_page.rb">
+    <entry file="file://$PROJECT_DIR$/features/support/impersonators.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="47" selection-start="277" selection-end="277" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/features/support/pages/gift_voucher_email_page.rb">
+    <entry file="file://$PROJECT_DIR$/features/support/env.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="13" selection-start="106" selection-end="106" vertical-scroll-proportion="0.0">
+        <state line="7" column="30" selection-start="161" selection-end="161" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/support/hooks.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="28" selection-start="90" selection-end="90" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/support/pages/home_page.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="95" selection-start="252" selection-end="252" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/features/step_definitions/choose_a_gift_voucher_steps.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="93" selection-start="277" selection-end="277" vertical-scroll-proportion="0.0">
+        <state line="8" column="27" selection-start="271" selection-end="271" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/features/choose_a_gift_voucher.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="0" selection-start="549" selection-end="549" vertical-scroll-proportion="0.478424">
+        <state line="10" column="82" selection-start="404" selection-end="404" vertical-scroll-proportion="0.31894934">
           <folding />
         </state>
       </provider>

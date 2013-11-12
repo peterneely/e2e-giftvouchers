@@ -1,8 +1,18 @@
 Given(/^a customer is choosing a gift voucher on (.*)$/) do |locale|
-  on(HomePage).set_locale(locale)
-  if(locale.downcase != 'au') then visit GiftVoucherPage else visit GiftVoucherEmailPage end
+  on(HomePage).navigate_to_gift_vouchers_for(locale)
 end
 
 Then(/^the customer should be able to choose (.*)$/) do |vouchers_available|
-  @current_page.vouchers_available?(vouchers_available).should be_true
+  voucher_page_for?(vouchers_available).should be_true
+end
+
+private
+
+def voucher_page_for? (vouchers_available)
+  case vouchers_available
+    when 'email or paper'
+      on(GiftVoucherPage)
+    when 'email'
+      on(GiftVoucherEmailPage)
+  end
 end
