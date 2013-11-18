@@ -1,5 +1,6 @@
 class GiftVoucherEmailPage
   include PageObject
+  include DataMagic
 
   page_url "#{FigNewton.base_url}/GiftVoucherEmail.aspx"
 
@@ -17,7 +18,7 @@ class GiftVoucherEmailPage
 
   image(:selected_design, :class => 'selected')
   span(:selected_amount, :class => 'selected')
-  text_field(:entered_amount, :id => 'entered-amount')
+  text_field(:entered_amount, :id => 'voucher-amount-custom')
 
   image(:preview_image, :id => 'preview-image')
   label(:preview_roundel, :id => 'preview-roundel')
@@ -30,8 +31,8 @@ class GiftVoucherEmailPage
     true
   end
 
-  def update(information)
-    populate_page_with data_for(:gift_voucher_email_page, information)
+  def update()
+    populate_page_with data_for(:gift_voucher_email_page)
   end
 
   def preview_updated?

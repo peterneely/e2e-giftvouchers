@@ -3,7 +3,7 @@ Given(/^an online customer has selected an email gift voucher$/) do
 end
 
 When(/^the customer has updated any of the following information:$/) do |information|
-  @current_page.update information
+  @current_page.update
 end
 
 Then(/^the preview is updated immediately$/) do
