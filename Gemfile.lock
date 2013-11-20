@@ -38,6 +38,7 @@ GEM
       actionpack
       cucumber
     rack (1.1.6)
+    rake (10.1.0)
     require_all (1.3.1)
     rspec (2.14.1)
       rspec-core (~> 2.14.0)
@@ -68,5 +69,6 @@ DEPENDENCIES
   page-object
   page_navigation
   pretty_face
+  rake
   require_all
   rspec
