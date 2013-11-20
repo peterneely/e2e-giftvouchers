@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5f50cb9b-6a45-404b-ae70-792393fea9d2" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/results/_results.html" afterPath="$PROJECT_DIR$/results/_results.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/support/pages/home_page.rb" afterPath="$PROJECT_DIR$/features/support/pages/home_page.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/support/hooks.rb" afterPath="$PROJECT_DIR$/features/support/hooks.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="gift-vouchers-bdd.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -40,7 +37,7 @@
     <file path="/uk_site.rb" changelist="5f50cb9b-6a45-404b-ae70-792393fea9d2" time="1383827699046" ignored="false" />
     <file path="/de_site.rb" changelist="5f50cb9b-6a45-404b-ae70-792393fea9d2" time="1383827470493" ignored="false" />
     <file path="/us_site.rb" changelist="5f50cb9b-6a45-404b-ae70-792393fea9d2" time="1383827466893" ignored="false" />
-    <file path="/hooks.rb" changelist="5f50cb9b-6a45-404b-ae70-792393fea9d2" time="1384962211882" ignored="false" />
+    <file path="/hooks.rb" changelist="5f50cb9b-6a45-404b-ae70-792393fea9d2" time="1384963504714" ignored="false" />
     <file path="/uk_site.yml" changelist="5f50cb9b-6a45-404b-ae70-792393fea9d2" time="1383838123707" ignored="false" />
     <file path="/gift_voucher_page.rb" changelist="5f50cb9b-6a45-404b-ae70-792393fea9d2" time="1384267839621" ignored="false" />
     <file path="/Ruby Console" changelist="5f50cb9b-6a45-404b-ae70-792393fea9d2" time="1383917010878" ignored="false" />
@@ -128,10 +125,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="home_page.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="home_page.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/features/support/pages/home_page.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="94" selection-start="320" selection-end="320" vertical-scroll-proportion="0.38511327">
+            <state line="14" column="94" selection-start="320" selection-end="320" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -164,10 +161,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="hooks.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="hooks.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/features/support/hooks.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="75" selection-start="112" selection-end="112" vertical-scroll-proportion="0.0">
+            <state line="3" column="58" selection-start="76" selection-end="76" vertical-scroll-proportion="0.08252427">
               <folding />
             </state>
           </provider>
@@ -204,9 +201,9 @@
         <option value="$PROJECT_DIR$/rakefile" />
         <option value="$PROJECT_DIR$/RakeFile.rb" />
         <option value="$PROJECT_DIR$/Gemfile" />
-        <option value="$PROJECT_DIR$/features/support/hooks.rb" />
         <option value="$PROJECT_DIR$/features/support/pages/home_page.rb" />
         <option value="$PROJECT_DIR$/features/choose_a_gift_voucher.feature" />
+        <option value="$PROJECT_DIR$/features/support/hooks.rb" />
       </list>
     </option>
   </component>
@@ -1105,13 +1102,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/features/support/hooks.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="75" selection-start="112" selection-end="112" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/features/customise_an_email_gift_voucher.feature">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="12" selection-start="292" selection-end="310" vertical-scroll-proportion="0.0">
@@ -1170,7 +1160,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/features/support/pages/home_page.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="94" selection-start="320" selection-end="320" vertical-scroll-proportion="0.38511327">
+        <state line="14" column="94" selection-start="320" selection-end="320" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/support/hooks.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="58" selection-start="76" selection-end="76" vertical-scroll-proportion="0.08252427">
           <folding />
         </state>
       </provider>
