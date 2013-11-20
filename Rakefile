@@ -2,8 +2,12 @@ require 'rubygems'
 require 'cucumber'
 require 'cucumber/rake/task'
 
-Cucumber::Rake::Task.new(:features) do |t|
-  t.profile = 'default'
+Cucumber::Rake::Task.new(:ready) do |t|
+  t.cucumber_opts = '--profile ready'
 end
 
-task :default => :features
+Cucumber::Rake::Task.new(:debug) do |t|
+  t.cucumber_opts = '--profile debug'
+end
+
+task :default => :ready

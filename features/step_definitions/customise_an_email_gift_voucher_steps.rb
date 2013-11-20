@@ -7,5 +7,5 @@ When(/^the customer has updated any of the following information:$/) do |informa
 end
 
 Then(/^the preview is updated immediately$/) do
-  @current_page.preview_updated? should be_true
+  @current_page.preview_updated?.should be_true
 end

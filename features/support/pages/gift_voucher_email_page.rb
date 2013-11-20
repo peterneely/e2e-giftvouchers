@@ -4,49 +4,58 @@ class GiftVoucherEmailPage
 
   page_url "#{FigNewton.base_url}/GiftVoucherEmail.aspx"
 
-  text_field(:recipient_name, :id => 'recipient-name')
-  text_field(:customer_name, :id => 'customer-name')
-  text_field(:delivery_date, :id => 'delivery-date')
-  text_field(:message, :id => 'message')
-
-  image(:design_1, :id => 'design-1')
-  image(:design_2, :id => 'design-2')
-  image(:design_3, :id => 'design-3')
-  image(:design_4, :id => 'design-4')
-  image(:design_5, :id => 'design-5')
-  image(:design_6, :id => 'design-6')
-
-  image(:selected_design, :class => 'selected')
   span(:selected_amount, :class => 'selected')
   text_field(:entered_amount, :id => 'voucher-amount-custom')
 
-  image(:preview_image, :id => 'preview-image')
-  label(:preview_roundel, :id => 'preview-roundel')
-  label(:preview_recipient_name, :id => 'preview-recipient-name')
-  label(:preview_sender_name, :id => 'preview-sender-name')
-  label(:preview_delivery_date, :id => 'preview-delivery-date')
-  label(:preview_message, :id => 'preview-message')
+  text_field(:recipient, :id => 'voucher-recipient-name')
+  text_field(:sender, :id => 'voucher-sender-name')
+  text_field(:delivery_date, :id => 'voucher-delivery-specific-date')
+  text_area(:message, :id => 'voucher-message-input')
+
+  label(:design1, :class => 'design1')
+  label(:design2, :class => 'design2')
+  label(:design3, :class => 'design3')
+  label(:design4, :class => 'design4')
+  label(:design5, :class => 'design5')
+  label(:design6, :class => 'design6')
+
+  image(:preview_image, :id => 'design-placeholder')
+  span(:preview_recipient, :id => 'voucher-preview-recipient-name')
+  span(:preview_sender, :id => 'voucher-preview-sender-name')
+  span(:preview_delivery_date, :id => 'voucher-preview-delivery-date')
+  p(:preview_message, :id => 'voucher-preview-message')
 
   def vouchers_available?(vouchers_available)
     true
   end
 
-  def update()
+  def update
     populate_page_with data_for(:gift_voucher_email_page)
   end
 
   def preview_updated?
-    selected_design_element.href == preview_image_element.href &&
-        voucher_amount == preview_roundel_element.text &&
-        recipient_name_element.text == preview_recipient_name_element.text &&
-        sender_name_element.text == preview_sender_name_element.text &&
-        delivery_date_element.text == preview_delivery_date_element.text &&
-        message_element.text == preview_message_element.text
+    rec = recipient
+    rec_pre = preview_recipient
+    recipients_equal = rec == rec_pre
+
+    sen = sender
+    sen_pre = preview_sender
+    senders_equal = sen == sen_pre
+
+    del = delivery_date
+    del_pre = preview_delivery_date
+    delivery_dates_equal = del == del_pre
+
+    mes = message
+    mes_pre = preview_message
+    messages_equal = mes == mes_pre
+
+    recipients_equal && senders_equal && delivery_dates_equal && messages_equal
   end
 
   private
 
-  def voucher_amount
-    selected_amount? ? selected_amount_element.text : entered_amount_element.text
-  end
+  #def voucher_amount
+  #  selected_amount? ? selected_amount_element.text : entered_amount_element.text
+  #end
 end

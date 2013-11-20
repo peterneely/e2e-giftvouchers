@@ -6,13 +6,14 @@ Feature: Customise an e-mail gift voucher
   Background: Email gift voucher selected
     Given an online customer has selected an email gift voucher
 
+  @ready
   Scenario: Preview is updated
     And the customer has updated any of the following information:
-      | information    |
-      | recipient_name |
-      | customer_name  |
-      | delivery_date  |
-      | message        |
+      | information   |
+      | recipient     |
+      | sender        |
+      | delivery_date |
+      | message       |
     Then the preview is updated immediately
 
   Scenario: Message character count is updated

@@ -1,1 +1,4 @@
 default: --no-source --color --format pretty
+
+debug: features --guess --color --format pretty --format PrettyFace::Formatter::Html --out results/_results.html --tags @debug
+ready: features --guess --color --format pretty --format PrettyFace::Formatter::Html --out results/_results.html --tags @ready
