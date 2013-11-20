@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5f50cb9b-6a45-404b-ae70-792393fea9d2" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/support/hooks.rb" afterPath="$PROJECT_DIR$/features/support/hooks.rb" />
-    </list>
+    <list default="true" id="5f50cb9b-6a45-404b-ae70-792393fea9d2" name="Default" comment="" />
     <ignored path="gift-vouchers-bdd.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/choose_a_gift_voucher.feature" changelist="5f50cb9b-6a45-404b-ae70-792393fea9d2" time="1383838307160" ignored="false" />
@@ -116,10 +114,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="default.yml" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="default.yml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config/environments/default.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="31" selection-start="84" selection-end="84" vertical-scroll-proportion="0.0">
+            <state line="1" column="31" selection-start="84" selection-end="84" vertical-scroll-proportion="0.027508091">
               <folding />
             </state>
           </provider>
@@ -161,10 +159,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="hooks.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="hooks.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/features/support/hooks.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="58" selection-start="76" selection-end="76" vertical-scroll-proportion="0.08252427">
+            <state line="6" column="32" selection-start="90" selection-end="90" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -1109,13 +1107,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/environments/default.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="31" selection-start="84" selection-end="84" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/data/default.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="14" column="20" selection-start="317" selection-end="317" vertical-scroll-proportion="0.0">
@@ -1167,7 +1158,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/features/support/hooks.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="58" selection-start="76" selection-end="76" vertical-scroll-proportion="0.08252427">
+        <state line="6" column="32" selection-start="90" selection-end="90" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/environments/default.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="31" selection-start="84" selection-end="84" vertical-scroll-proportion="0.027508091">
           <folding />
         </state>
       </provider>
