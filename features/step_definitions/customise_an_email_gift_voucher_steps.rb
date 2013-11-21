@@ -9,3 +9,11 @@ end
 Then(/^the preview is updated immediately$/) do
   @current_page.preview_updated?.should be_true
 end
+
+When(/^they are entering a message$/) do
+  @current_page.update
+end
+
+Then(/^the message character count should update as they type$/) do
+  @current_page.character_count_updated?.should be_true
+end

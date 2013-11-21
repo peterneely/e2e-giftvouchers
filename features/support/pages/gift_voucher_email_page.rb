@@ -19,6 +19,8 @@ class GiftVoucherEmailPage
   label(:design5, :class => 'design5')
   label(:design6, :class => 'design6')
 
+  span(:character_count, :id => 'voucher-message-character-count')
+
   image(:preview_image, :id => 'design-placeholder')
   span(:preview_recipient, :id => 'voucher-preview-recipient-name')
   span(:preview_sender, :id => 'voucher-preview-sender-name')
@@ -51,6 +53,14 @@ class GiftVoucherEmailPage
     messages_equal = mes == mes_pre
 
     recipients_equal && senders_equal && delivery_dates_equal && messages_equal
+  end
+
+  def character_count_updated?
+    message_count =  message.length
+    temp1= character_count
+    temp = character_count[/^[^\/]*/]
+    label_count = character_count[/^[^\/]*/]
+    message_count == label_count
   end
 
   private

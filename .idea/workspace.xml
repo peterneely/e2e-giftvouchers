@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5f50cb9b-6a45-404b-ae70-792393fea9d2" name="Default" comment="" />
+    <list default="true" id="5f50cb9b-6a45-404b-ae70-792393fea9d2" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/step_definitions/customise_an_email_gift_voucher_steps.rb" afterPath="$PROJECT_DIR$/features/step_definitions/customise_an_email_gift_voucher_steps.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/support/pages/gift_voucher_email_page.rb" afterPath="$PROJECT_DIR$/features/support/pages/gift_voucher_email_page.rb" />
+    </list>
     <ignored path="gift-vouchers-bdd.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/choose_a_gift_voucher.feature" changelist="5f50cb9b-6a45-404b-ae70-792393fea9d2" time="1383838307160" ignored="false" />
@@ -39,7 +42,7 @@
     <file path="/uk_site.yml" changelist="5f50cb9b-6a45-404b-ae70-792393fea9d2" time="1383838123707" ignored="false" />
     <file path="/gift_voucher_page.rb" changelist="5f50cb9b-6a45-404b-ae70-792393fea9d2" time="1384267839621" ignored="false" />
     <file path="/Ruby Console" changelist="5f50cb9b-6a45-404b-ae70-792393fea9d2" time="1383917010878" ignored="false" />
-    <file path="/gift_voucher_email_page.rb" changelist="5f50cb9b-6a45-404b-ae70-792393fea9d2" time="1384952821193" ignored="false" />
+    <file path="/gift_voucher_email_page.rb" changelist="5f50cb9b-6a45-404b-ae70-792393fea9d2" time="1385034876825" ignored="false" />
     <file path="/helpers.rb" changelist="5f50cb9b-6a45-404b-ae70-792393fea9d2" time="1384249802732" ignored="false" />
     <file path="$PROJECT_DIR$/../qantas-bdd/features/support/env.rb" changelist="5f50cb9b-6a45-404b-ae70-792393fea9d2" time="1384252794241" ignored="false" />
     <file path="$PROJECT_DIR$/../qantas-bdd/features/support/hooks.rb" changelist="5f50cb9b-6a45-404b-ae70-792393fea9d2" time="1384252794241" ignored="false" />
@@ -52,7 +55,7 @@
     <file path="$PROJECT_DIR$/../qantas-bdd/features/support/pages/account_preferences_page.rb" changelist="5f50cb9b-6a45-404b-ae70-792393fea9d2" time="1384252794241" ignored="false" />
     <file path="$PROJECT_DIR$/../qantas-bdd/features/support/pages/payment_page.rb" changelist="5f50cb9b-6a45-404b-ae70-792393fea9d2" time="1384252794241" ignored="false" />
     <file path="$PROJECT_DIR$/../qantas-bdd/features/support/pages/change_details_page.rb" changelist="5f50cb9b-6a45-404b-ae70-792393fea9d2" time="1384252794241" ignored="false" />
-    <file path="/customise_an_email_gift_voucher_steps.rb" changelist="5f50cb9b-6a45-404b-ae70-792393fea9d2" time="1384950131201" ignored="false" />
+    <file path="/customise_an_email_gift_voucher_steps.rb" changelist="5f50cb9b-6a45-404b-ae70-792393fea9d2" time="1385034320854" ignored="false" />
     <file path="/customise_an_email_gift_voucher.feature" changelist="5f50cb9b-6a45-404b-ae70-792393fea9d2" time="1384949325188" ignored="false" />
     <file path="/Gemfile" changelist="5f50cb9b-6a45-404b-ae70-792393fea9d2" time="1384272531825" ignored="false" />
     <file path="C:/Developer/Code/Ruby/bdd-scratchpad/features/temp.feature" changelist="5f50cb9b-6a45-404b-ae70-792393fea9d2" time="1384859206813" ignored="false" />
@@ -78,28 +81,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="customise_an_email_gift_voucher.feature" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="customise_an_email_gift_voucher.feature" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/features/customise_an_email_gift_voucher.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="12" selection-start="292" selection-end="310" vertical-scroll-proportion="0.0">
+            <state line="18" column="12" selection-start="555" selection-end="589" vertical-scroll-proportion="0.37023592">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="choose_a_gift_voucher.feature" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/features/choose_a_gift_voucher.feature">
+      <file leaf-file-name="customise_an_email_gift_voucher_steps.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/features/step_definitions/customise_an_email_gift_voucher_steps.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="43" selection-start="485" selection-end="485" vertical-scroll-proportion="0.0">
+            <state line="12" column="67" selection-start="364" selection-end="364" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="choose_a_gift_voucher_steps.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/features/step_definitions/choose_a_gift_voucher_steps.rb">
+      <file leaf-file-name="gift_voucher_email_page.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/features/support/pages/gift_voucher_email_page.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="63" selection-start="272" selection-end="272" vertical-scroll-proportion="0.0">
+            <state line="62" column="60" selection-start="1906" selection-end="1906" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -114,46 +117,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="default.yml" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/config/environments/default.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="31" selection-start="84" selection-end="84" vertical-scroll-proportion="0.027508091">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="home_page.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/features/support/pages/home_page.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state line="14" column="94" selection-start="320" selection-end="320" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="gift_voucher_email_page.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/features/support/pages/gift_voucher_email_page.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="42" column="34" selection-start="1352" selection-end="1352" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="gift_voucher_page.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/features/support/pages/gift_voucher_page.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="env.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/features/support/env.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="35" selection-start="156" selection-end="156" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -190,8 +157,6 @@
         <option value="$PROJECT_DIR$/features/support/env.rb" />
         <option value="$PROJECT_DIR$/features/temp.feature" />
         <option value="$PROJECT_DIR$/config/data/default.yml" />
-        <option value="$PROJECT_DIR$/features/step_definitions/customise_an_email_gift_voucher_steps.rb" />
-        <option value="$PROJECT_DIR$/features/support/pages/gift_voucher_email_page.rb" />
         <option value="$PROJECT_DIR$/config/environments/default.yml" />
         <option value="$PROJECT_DIR$/cucumber.yml" />
         <option value="$PROJECT_DIR$/Rakefile" />
@@ -202,6 +167,8 @@
         <option value="$PROJECT_DIR$/features/support/pages/home_page.rb" />
         <option value="$PROJECT_DIR$/features/choose_a_gift_voucher.feature" />
         <option value="$PROJECT_DIR$/features/support/hooks.rb" />
+        <option value="$PROJECT_DIR$/features/step_definitions/customise_an_email_gift_voucher_steps.rb" />
+        <option value="$PROJECT_DIR$/features/support/pages/gift_voucher_email_page.rb" />
       </list>
     </option>
   </component>
@@ -572,41 +539,7 @@
       <recent name="C:\Workspace\gift-vouchers-bdd\features\support\impersonators" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber.Vouchers available by locale">
-    <configuration default="false" name="Customisations are shown in a preview" type="CucumberRunConfigurationType" factoryName="Cucumber" temporary="true">
-      <predefined_log_file id="RUBY_CUCUMBER" enabled="true" />
-      <module name="gift-vouchers-bdd" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$PROJECT_DIR$" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
-      <envs>
-        <env name="ANSICON" value="" />
-        <env name="JRUBY_OPTS" value="-X+O" />
-      </envs>
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
-      <EXTENSION ID="JRubyRunConfigurationExtension" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
-      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*.feature" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$PROJECT_DIR$/features/customise_an_email_gift_voucher.feature" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TAGS_FILTER" VALUE="" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_NAME_FILTER" VALUE="^Customisations are shown in a preview$" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_ARGS" VALUE="--color -r features" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="VERBOSE_OPTION" VALUE="false" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_RUNNER_PATH" VALUE="" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_RUNNER" VALUE="false" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SETTINGS_VERSION" VALUE="2" />
-      <RunnerSettings RunnerId="RubyRunner" />
-      <ConfigurationWrapper RunnerId="RubyRunner" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Cucumber.Message character count is updated">
     <configuration default="false" name="Preview is updated" type="CucumberRunConfigurationType" factoryName="Cucumber" temporary="true">
       <predefined_log_file id="RUBY_CUCUMBER" enabled="true" />
       <module name="gift-vouchers-bdd" />
@@ -728,6 +661,40 @@
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SETTINGS_VERSION" VALUE="2" />
       <RunnerSettings RunnerId="RubyRunner" />
       <ConfigurationWrapper RunnerId="RubyRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Message character count is updated" type="CucumberRunConfigurationType" factoryName="Cucumber" temporary="true">
+      <predefined_log_file id="RUBY_CUCUMBER" enabled="true" />
+      <module name="gift-vouchers-bdd" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$PROJECT_DIR$" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="ANSICON" value="" />
+        <env name="JRUBY_OPTS" value="-X+O" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
+      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*.feature" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$PROJECT_DIR$/features/customise_an_email_gift_voucher.feature" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TAGS_FILTER" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_NAME_FILTER" VALUE="^Message character count is updated$" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_ARGS" VALUE="--color -r features" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="VERBOSE_OPTION" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_RUNNER_PATH" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_RUNNER" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SETTINGS_VERSION" VALUE="2" />
+      <RunnerSettings RunnerId="RubyDebugRunner" />
+      <ConfigurationWrapper RunnerId="RubyDebugRunner" />
       <method />
     </configuration>
     <configuration default="true" type="RakeRunConfigurationType" factoryName="Rake">
@@ -905,21 +872,21 @@
       <method />
     </configuration>
     <list size="7">
-      <item index="0" class="java.lang.String" itemvalue="Cucumber.Customisations are shown in a preview" />
-      <item index="1" class="java.lang.String" itemvalue="Cucumber.Preview is updated" />
-      <item index="2" class="java.lang.String" itemvalue="Cucumber.choose_a_gift_voucher" />
-      <item index="3" class="java.lang.String" itemvalue="IRB console.IRB console" />
-      <item index="4" class="java.lang.String" itemvalue="Rake.Rake: ready" />
-      <item index="5" class="java.lang.String" itemvalue="Rake.Rake: debug" />
-      <item index="6" class="java.lang.String" itemvalue="Cucumber.Vouchers available by locale" />
+      <item index="0" class="java.lang.String" itemvalue="Cucumber.Preview is updated" />
+      <item index="1" class="java.lang.String" itemvalue="Cucumber.choose_a_gift_voucher" />
+      <item index="2" class="java.lang.String" itemvalue="IRB console.IRB console" />
+      <item index="3" class="java.lang.String" itemvalue="Rake.Rake: ready" />
+      <item index="4" class="java.lang.String" itemvalue="Rake.Rake: debug" />
+      <item index="5" class="java.lang.String" itemvalue="Cucumber.Vouchers available by locale" />
+      <item index="6" class="java.lang.String" itemvalue="Cucumber.Message character count is updated" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Cucumber.Vouchers available by locale" />
+        <item index="0" class="java.lang.String" itemvalue="Cucumber.Message character count is updated" />
         <item index="1" class="java.lang.String" itemvalue="Cucumber.Vouchers available by locale" />
         <item index="2" class="java.lang.String" itemvalue="Cucumber.Vouchers available by locale" />
-        <item index="3" class="java.lang.String" itemvalue="Cucumber.choose_a_gift_voucher" />
-        <item index="4" class="java.lang.String" itemvalue="Cucumber.Preview is updated" />
+        <item index="3" class="java.lang.String" itemvalue="Cucumber.Vouchers available by locale" />
+        <item index="4" class="java.lang.String" itemvalue="Cucumber.choose_a_gift_voucher" />
       </list>
     </recent_temporary>
   </component>
@@ -959,11 +926,11 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32881" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22732124" sideWeight="0.6722338" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39770356" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22732124" sideWeight="0.6022965" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.39770356" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32776618" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32776618" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1054,17 +1021,10 @@
           <option name="timeStamp" value="64" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="65" />
+      <option name="time" value="68" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/features/step_definitions/customise_an_email_gift_voucher_steps.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="3" selection-start="322" selection-end="322" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/RakeFile.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="59" selection-start="233" selection-end="233" vertical-scroll-proportion="0.0">
@@ -1100,20 +1060,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/features/customise_an_email_gift_voucher.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="12" selection-start="292" selection-end="310" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/data/default.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="20" selection-start="317" selection-end="317" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/features/choose_a_gift_voucher.feature">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="43" selection-start="485" selection-end="485" vertical-scroll-proportion="0.0">
@@ -1131,13 +1077,6 @@
     <entry file="file://$PROJECT_DIR$/features/step_definitions/choose_a_gift_voucher_steps.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="63" selection-start="272" selection-end="272" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/support/pages/gift_voucher_email_page.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="34" selection-start="1352" selection-end="1352" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -1165,7 +1104,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config/environments/default.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="31" selection-start="84" selection-end="84" vertical-scroll-proportion="0.027508091">
+        <state line="1" column="85" selection-start="84" selection-end="84" vertical-scroll-proportion="0.027508091">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/data/default.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="20" selection-start="317" selection-end="317" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/support/pages/gift_voucher_email_page.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="62" column="60" selection-start="1906" selection-end="1906" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/step_definitions/customise_an_email_gift_voucher_steps.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="67" selection-start="364" selection-end="364" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/customise_an_email_gift_voucher.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="12" selection-start="555" selection-end="589" vertical-scroll-proportion="0.37023592">
           <folding />
         </state>
       </provider>
