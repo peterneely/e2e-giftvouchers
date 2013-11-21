@@ -36,31 +36,15 @@ class GiftVoucherEmailPage
   end
 
   def preview_updated?
-    rec = recipient
-    rec_pre = preview_recipient
-    recipients_equal = rec == rec_pre
-
-    sen = sender
-    sen_pre = preview_sender
-    senders_equal = sen == sen_pre
-
-    del = delivery_date
-    del_pre = preview_delivery_date
-    delivery_dates_equal = del == del_pre
-
-    mes = message
-    mes_pre = preview_message
-    messages_equal = mes == mes_pre
-
+    recipients_equal = recipient == preview_recipient
+    senders_equal = sender == preview_sender
+    delivery_dates_equal = delivery_date == preview_delivery_date
+    messages_equal = message == preview_message
     recipients_equal && senders_equal && delivery_dates_equal && messages_equal
   end
 
   def character_count_updated?
-    message_count =  message.length
-    temp1= character_count
-    temp = character_count[/^[^\/]*/]
-    label_count = character_count[/^[^\/]*/]
-    message_count == label_count
+    message.length == character_count[/^[^\/]*/].to_i
   end
 
   private
