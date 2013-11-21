@@ -16,6 +16,7 @@ Feature: Customise an e-mail gift voucher
       | message       |
     Then the preview is updated immediately
 
+  @ready
   Scenario: Message character count is updated
     And they are entering a message
     Then the message character count should update as they type
