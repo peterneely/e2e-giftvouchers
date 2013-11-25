@@ -30,7 +30,7 @@ Feature: Customise an e-mail gift voucher
       | Voucher amount            | £100               | Selected or non-blank, evenly divisible by ten, accepts numbers only, displays as numeric input on mobile device                 |
       | Recipient's name          | Blank              | Non-blank, displays as default input on mobile device                                                                            |
       | Recipient's email address | Blank              | Non-blank, looks like an email address, only one e-mail address, displays as email input on mobile device                        |
-      | Your message              | Blank              | Non-blank, maximum of 500 characters including spaces and punctuation, displays as default input on mobile device                |
+      | Your message              | Blank              | Non-blank, maximum of 255 characters including spaces and punctuation, displays as default input on mobile device                |
       | Your name                 | Blank              | Non-blank, displays as default input on mobile device                                                                            |
       | Delivery date             | On a specific date | Selected or non-blank, in the format DD MM YYYY, date is current or future but not past, displays as date input on mobile device |
     Then the customer should be able to add the voucher to their shopping bag

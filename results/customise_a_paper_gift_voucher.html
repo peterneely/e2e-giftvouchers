@@ -1,0 +1,227 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns='http://www.w3.org/1999/xhtml'>
+  <head>
+    <link href='stylesheets/style.css' type='text/css' rel='stylesheet' />
+    <meta charset="utf-8">
+    <title>Feature Results</title>
+  </head>
+
+  <body>
+    
+    <div style="clear: both; width=100%; background-color:#F6F6F6;">
+      <a href="results/_results.html" style="color=#0071BC;">&lt; Back</a>
+    </div>
+
+    <div style="float:left; clear:both;">
+      <div class="header_logo">
+        <img src="images/logo.png" width="200" />
+      </div>
+      <div class="header_description" >
+          <h2 class="results">Feature Results:  Customise a paper gift voucher</h2>
+<br />
+
+
+        <table class="run_stats">
+          <tr>
+            <td>started:</td>
+            <td>duration:</td>
+          </tr>
+          <tr>
+            <td>Monday November 25, 2013 at 14:05:44</td>
+            <td>0m53.149s</td>
+          </tr>
+        </table>  
+          <pre class="description run_stats">Story<br/>As an online customer
+I would like to be able to customise a paper gift voucher
+so that I can personalise my gift</pre>
+      </div>
+    </div>
+
+    <div class="summary_body">
+        <table class="StatTable">
+         <tr>
+          <th>Summary</th>
+          <th>Executed</th>
+	  <th class="passed"><img src="images/table_passed.png" alt="passed" title="passed"> Passed</th>
+          <th class="failed"><img src="images/table_failed.png" alt="failed" title="failed"> Failed</th>
+          <th class="skipped"><img src="images/table_skipped.png" alt="skipped" title="skipped"> Skipped</th>
+          <th class="undefined"><img src="images/table_undefined.png" alt="undefined" title="undefined"> Undefined</th>
+          <th class="pending" ><img src="images/table_pending.png" alt="pending" title="pending"> Pending</th>
+          <th>Average Duration</th>
+        </tr>
+
+        <tr class="summary_row_header">
+          <td>Scenarios</td>
+          <td>3</td>
+          <td>2 <span class="percentage">(66.7%)</span></td>
+          <td>1 <span class="percentage">(33.3%)</span></td>
+          <td>0 <span class="percentage">(0.0%)</span></td>
+          <td>0 <span class="percentage">(0.0%)</span></td>
+          <td>0 <span class="percentage">(0.0%)</span></td>
+          <td>0m15.880s</td>
+        </tr>
+        <tr class="summary_row_header">
+          <td>Steps</td>
+          <td>7</td>
+          <td>6 <span class="percentage">(85.7%)</span></td>
+          <td>1 <span class="percentage">(14.3%)</span></td>
+          <td>0 <span class="percentage">(0.0%)</span></td>
+          <td>0 <span class="percentage">(0.0%)</span></td>
+          <td>0 <span class="percentage">(0.0%)</span></td>
+          <td>0m0.928s</td>
+        </tr>
+
+
+      </table>
+	</div>
+
+    <div class="feature_background">
+	    <div class="scenario_list">
+	      <br />
+	      <h2 class="scenarios">Background: Paper gift voucher selected</h2>
+	      <table cellspacing="0" cellpadding="7" border="0" width="100%">
+		<tr>
+		  <td><img src="images/passed.png" alt="passed" title="passed"></td>
+		  <td>
+		    Given  an online customer has selected a paper gift voucher
+
+		  </td>
+		</tr>
+	      </table>
+	      <br />
+	      <h2 class="scenarios">Scenarios:</h2>
+	      <br />
+	      <table cellspacing="0" cellpadding="7" class="scenario" width="100%">
+	      <tr >
+		  <th colspan="2" class="passed">Message character count is updated</th>
+		</tr>
+		  <tr class="borderSeparator">
+		  <td class="image_tag"> <img src="images/passed.png" alt="passed" title="passed"></td>
+		  <td class="">
+   
+		  Given  they are entering a message
+
+		  </td>
+		  </tr>
+		  <tr class="borderSeparator">
+		  <td class="image_tag"> <img src="images/passed.png" alt="passed" title="passed"></td>
+		  <td class="">
+   
+		  Then  the message character count should update as they type
+
+		  </td>
+		  </tr>
+	      </table>
+	    
+        <div class="img_container">
+	        <br /><br />
+	      <table cellspacing="0" cellpadding="7" class="scenario" width="100%">
+	      <tr >
+		  <th colspan="2" class="failed">A valid paper gift voucher can be added to the shopping bag
+A default design is always pre-selected, so it is always valid.</th>
+		</tr>
+		  <tr class="borderSeparator">
+		  <td class="image_tag"> <img src="images/passed.png" alt="passed" title="passed"></td>
+		  <td class="">
+   
+		  Given  the following details are valid:
+	<br />
+	<table border="1" class="param_table">
+		<tr>
+				<th>Detail</th>
+				<th>Default value</th>
+				<th>Valid if</th>
+		</tr>
+			<tr>
+					<td>Voucher amount</td>
+					<td>£100</td>
+					<td>Selected from a list with pre-set values</td>
+			</tr>
+			<tr>
+					<td>Your message</td>
+					<td>Blank</td>
+					<td>Non-blank and maximum of 255 characters, including spaces and punctuation</td>
+			</tr>
+	</table>
+
+		  </td>
+		  </tr>
+		  <tr class="borderSeparator">
+		  <td class="image_tag"> <img src="images/failed.png" alt="failed" title="failed"></td>
+		  <td class="">
+   
+		  Then  the customer should be able to add the voucher to their shopping bag
+	<table>
+		<tr class="error">
+			<td class="message">
+				<strong><pre>timed out after 5 seconds (Watir::Wait::TimeoutError)</pre></strong>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<pre class="ruby"><strong>./features/support/pages/gift_voucher_paper_page.rb
+</strong><code><span class="linenum">46</span>  <span class="keyword">def </span><span class="method">voucher_added?</span>
+<span class="linenum">47</span>    <span class="ident">add_to_bag</span>
+<span class="offending"><span class="linenum">48</span>    <span class="ident">wait_until</span><span class="punct">(</span><span class="number">5</span><span class="punct">)</span> <span class="keyword">do</span></span>
+<span class="linenum">49</span>      <span class="ident">bag_count</span><span class="punct">.</span><span class="ident">to_i</span> <span class="punct">&gt;</span> <span class="number">0</span>
+<span class="linenum">50</span>    <span class="keyword">end</span></code></pre>
+			</td>
+		</tr>
+		<tr >
+			<td class="detail">
+					<pre>./features/support/pages/gift_voucher_paper_page.rb:48:in `voucher_added?&#39;
+./features/step_definitions/customise_an_email_gift_voucher_steps.rb:26:in `/^the customer should be able to add the voucher to their shopping bag$/&#39;
+features\customise_a_paper_gift_voucher.feature:22:in `Then the customer should be able to add the voucher to their shopping bag&#39;</pre>
+			</td>
+		</tr>
+	</table>
+
+		  </td>
+		  </tr>
+	      </table>
+	    
+        <div class="img_container">
+	        <br /><br />
+	      <table cellspacing="0" cellpadding="7" class="scenario" width="100%">
+	      <tr >
+		  <th colspan="2" class="passed">An invalid voucher cannot be added to the shopping bag</th>
+		</tr>
+		  <tr class="borderSeparator">
+		  <td class="image_tag"> <img src="images/passed.png" alt="passed" title="passed"></td>
+		  <td class="">
+   
+		  Given  any detail is invalid
+
+		  </td>
+		  </tr>
+		  <tr class="borderSeparator">
+		  <td class="image_tag"> <img src="images/passed.png" alt="passed" title="passed"></td>
+		  <td class="">
+   
+		  Then  the customer should see an error message
+
+		  </td>
+		  </tr>
+		  <tr class="borderSeparator">
+		  <td class="image_tag"> <img src="images/passed.png" alt="passed" title="passed"></td>
+		  <td class="">
+   
+		  Then  they should not be allowed to add the voucher to their shopping bag
+
+		  </td>
+		  </tr>
+	      </table>
+	    
+        <div class="img_container">
+	        <br /><br />
+	      </div>
+      </div>
+    </div>
+
+    </div>
+
+    <div class="footer">
+      Generated by PrettyFace
+    </div>
+  </body>
+</html>

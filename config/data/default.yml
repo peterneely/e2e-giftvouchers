@@ -29,3 +29,5 @@ gift_voucher_email_page_invalid:
   email: ~email_address
   sender: ~full_name
 
+gift_voucher_paper_page:
+  message: ~words(number=20)

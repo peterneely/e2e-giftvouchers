@@ -25,5 +25,10 @@ PageObject::PageFactory.routes = {
     :route_for_au => [
         [HomePage, :navigate_to_gift_vouchers_for, 'AU'],
         [GiftVoucherEmailPage]
+    ],
+    :default_paper => [
+        [HomePage, :navigate_to_gift_vouchers_for, 'UK'],
+        [GiftVoucherPage, :paper_button],
+        [GiftVoucherPaperPage]
     ]
 }
