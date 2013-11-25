@@ -21,6 +21,7 @@ Feature: Customise an e-mail gift voucher
     And they are entering a message
     Then the message character count should update as they type
 
+  @ready
   Scenario: A valid email gift voucher can be added to the shopping bag
   A default design is always pre-selected, so it is always valid
 
@@ -34,6 +35,7 @@ Feature: Customise an e-mail gift voucher
       | Delivery date             | On a specific date | Selected or non-blank, in the format DD MM YYYY, date is current or future but not past, displays as date input on mobile device |
     Then the customer should be able to add the voucher to their shopping bag
 
+  @ready
   Scenario: An invalid voucher cannot be added to the shopping bag
     And any detail is invalid
     Then the customer should see an error message

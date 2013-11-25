@@ -72,7 +72,7 @@ class GiftVoucherEmailPage
   end
 
   def error_message_visible?
-    #cssClass = message_element.class
+    #cssClass = TextArea.element_class_for(:message)
     #result = cssClass == 'validationElement'
     #result
     true
