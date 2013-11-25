@@ -16,3 +16,16 @@ gift_voucher_email_page:
   delivery_date: ~Date.today
   message: ~words(number=20)
 
+gift_voucher_email_page_valid:
+  entered_amount: 10
+  recipient: ~full_name
+  email: ~email_address
+  sender: ~full_name
+  message: ~words(number=20)
+
+gift_voucher_email_page_invalid:
+  entered_amount: 10
+  recipient: ~full_name
+  email: ~email_address
+  sender: ~full_name
+
