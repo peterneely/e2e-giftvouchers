@@ -27,7 +27,7 @@ Feature: Customise an e-mail gift voucher
 
     And the following details are valid:
       | Detail                    | Default value      | Valid if                                                                                                                         |
-      | Voucher amount            | £100               | Selected or non-blank, evenly divisible by ten, accepts numbers only, displays as numeric input on mobile device                 |
+      | Voucher amount            | £100               | Selected or non-blank, evenly divisible, accepts numbers only, displays as numeric input on mobile device                        |
       | Recipient's name          | Blank              | Non-blank, displays as default input on mobile device                                                                            |
       | Recipient's email address | Blank              | Non-blank, looks like an email address, only one e-mail address, displays as email input on mobile device                        |
       | Your message              | Blank              | Non-blank, maximum of 255 characters including spaces and punctuation, displays as default input on mobile device                |

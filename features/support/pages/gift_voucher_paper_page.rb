@@ -56,17 +56,11 @@ class GiftVoucherPaperPage
   end
 
   def error_message_visible?
-    #cssClass = TextArea.element_class_for(:message)
-    #result = cssClass == 'validationElement'
-    #result
-    true
+    add_to_bag
+    message_element.class_name.include? 'validationElement'
   end
 
   def voucher_not_added?
-    add_to_bag
-    wait_until(5) do
-      bag_count.to_i == 0
-    end
     bag_count.to_i == 0
   end
 end
