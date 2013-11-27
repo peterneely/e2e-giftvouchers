@@ -21,8 +21,8 @@ class GiftVoucherPaperPage
     populate_page_with data_for(:gift_voucher_paper_page)
   end
 
-  def designs_hidden?
-    !design_element.visible?
+  def designs?
+    design_element.exists? ? 'visible' : 'hidden'
   end
 
   def character_count_updated?

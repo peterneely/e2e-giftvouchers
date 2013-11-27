@@ -3,9 +3,17 @@ Feature: Customise a paper gift voucher
   I would like to be able to customise a paper gift voucher
   so that I can personalise my gift
 
-  Scenario: A German customer cannot choose a voucher holder design
-    Given a German customer has selected a paper gift voucher
-    Then do not display the voucher holder design section
+  Scenario Outline: Paper voucher holder design available by locale
+  Paper vouchers are not available to AU customers
+
+    Given a customer is choosing a paper gift voucher on <locale>
+    Then the voucher holder design should be <visibility>
+
+  Examples: Locale and vouchers available
+    | locale | visibility |
+    | UK     | visible    |
+    | DE     | hidden     |
+    | US     | visible    |
 
   @ready
   Scenario: Message character count is updated

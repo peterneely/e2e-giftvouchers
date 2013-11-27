@@ -2,10 +2,12 @@ Given(/^an online customer has selected a paper gift voucher$/) do
   navigate_to(GiftVoucherPaperPage, :using => :default_paper)
 end
 
-Given(/^a German customer has selected a paper gift voucher$/) do
-  navigate_to(GiftVoucherPaperPage, :using => :german_paper)
+Given(/^a customer is choosing a paper gift voucher on (.*)$/) do |locale|
+  on(HomePage).navigate_to_gift_vouchers_for(locale)
+  on(GiftVoucherPage).paper_button
 end
 
-Then(/^do not display the voucher holder design section$/) do
-  @current_page.designs_hidden?.should be_true
+Then(/^the voucher holder design should be (.*)$/) do |visible|
+  on(GiftVoucherPaperPage).designs? == visible
 end
+
