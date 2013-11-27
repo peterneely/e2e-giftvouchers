@@ -3,6 +3,7 @@ Feature: Customise a paper gift voucher
   I would like to be able to customise a paper gift voucher
   so that I can personalise my gift
 
+  @ready
   Scenario Outline: Paper voucher holder design available by locale
   Paper vouchers are not available to AU customers
 
