@@ -30,5 +30,10 @@ PageObject::PageFactory.routes = {
         [HomePage, :navigate_to_gift_vouchers_for, 'UK'],
         [GiftVoucherPage, :paper_button],
         [GiftVoucherPaperPage]
+    ],
+    :german_paper => [
+        [HomePage, :navigate_to_gift_vouchers_for, 'DE'],
+        [GiftVoucherPage, :paper_button],
+        [GiftVoucherPaperPage]
     ]
 }

@@ -6,26 +6,20 @@ class GiftVoucherEmailPage
 
   span(:selected_amount, :class => 'selected')
   text_field(:entered_amount, :id => 'custom-amount')
-
   text_field(:recipient, :id => 'voucher-recipient-name')
   text_field(:email, :id => 'voucher-recipient-email')
   text_field(:sender, :id => 'voucher-sender-name')
   text_field(:delivery_date, :id => 'voucher-delivery-specific-date')
   text_area(:message, :id => 'voucher-message-input')
-
   label(:design1, :class => 'design1')
   label(:design2, :class => 'design2')
   label(:design3, :class => 'design3')
   label(:design4, :class => 'design4')
   label(:design5, :class => 'design5')
   label(:design6, :class => 'design6')
-
   span(:character_count, :id => 'voucher-message-character-count')
-
   button(:add_to_bag, :id => 'voucher-add-to-bag')
-
   span(:bag_count, :id => 'miniBKQty')
-
   image(:preview_image, :id => 'design-placeholder')
   span(:preview_recipient, :id => 'voucher-preview-recipient-name')
   span(:preview_sender, :id => 'voucher-preview-sender-name')

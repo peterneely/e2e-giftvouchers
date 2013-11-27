@@ -12,9 +12,9 @@ class HomePage # < BasePage
   private
 
   def set_locale(locale)
-    $locale = locale.downcase!
-    locale_promotion = data_for(:locale_ids)[$locale]
-    url = "#{FigNewton.base_url}/default.aspx?q=#{locale_promotion}|||||||||||||||&changecountry=#{$locale}"
+    locale = locale.downcase
+    url_segment = data_for(:locale_ids)[locale]
+    url = "#{FigNewton.base_url}/Country/Change/#{url_segment}"
     navigate_to url
   end
 end

@@ -1,8 +1,8 @@
 locale_ids:
-  uk: gbpdefault
-  de: dmdefault
-  us: usddefault
-  au: auddefault
+  uk: GB
+  de: DE
+  us: US
+  au: AU
 
 image_names:
   uk: [gv_home_email-uk, gv_home_paper-uk]
