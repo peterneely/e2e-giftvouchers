@@ -10,11 +10,23 @@ Feature: Customise a paper gift voucher
     Given a customer is choosing a paper gift voucher on <locale>
     Then the voucher holder design should be <visibility>
 
-  Examples: Locale and vouchers available
+  Examples: Designs available by locale
     | locale | visibility |
     | UK     | visible    |
     | DE     | hidden     |
     | US     | visible    |
+
+  Scenario Outline: Paper voucher denominations available by locale
+  Paper vouchers are not available to AU customers
+
+    Given a customer is choosing a paper gift voucher on <locale>
+    Then the voucher denominations should be <denominations>
+
+  Examples: Denominations available by locale
+    | locale | denominations                      |
+    | UK     | 500, 200, 150, 100, 80, 50, 40, 20 |
+    | DE     | 500, 200, 150, 100, 80, 50, 40, 20 |
+    | US     | 1000, 500, 200, 150, 100, 80, 50   |
 
   @ready
   Scenario: Message character count is updated

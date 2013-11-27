@@ -4,7 +4,6 @@ class GiftVoucherEmailPage
 
   page_url "#{FigNewton.base_url}/GiftVoucherEmail.aspx"
 
-  span(:selected_amount, :class => 'selected')
   text_field(:entered_amount, :id => 'custom-amount')
   text_field(:recipient, :id => 'voucher-recipient-name')
   text_field(:email, :id => 'voucher-recipient-email')

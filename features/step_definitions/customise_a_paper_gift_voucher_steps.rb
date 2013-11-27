@@ -11,3 +11,6 @@ Then(/^the voucher holder design should be (.*)$/) do |visible|
   on(GiftVoucherPaperPage).designs? == visible
 end
 
+Then(/^the voucher denominations should be (.*)$/) do |denominations|
+  on(GiftVoucherPaperPage).denominations.should == denominations
+end

@@ -5,7 +5,7 @@ class GiftVoucherPaperPage
   page_url "#{FigNewton.base_url}/GiftVoucherPaper.aspx"
 
   div(:design, :id => 'voucher-designs')
-  span(:selected_amount, :class => 'selected')
+  labels(:amount, :class => 'voucher-amount')
   text_area(:message, :id => 'voucher-message-input')
   label(:design1, :class => 'design1')
   label(:design2, :class => 'design2')
@@ -23,6 +23,14 @@ class GiftVoucherPaperPage
 
   def designs?
     design_element.exists? ? 'visible' : 'hidden'
+  end
+
+  def denominations
+    result = ''
+    amount_elements.each do |amount|
+      result << amount.text[/[0-9]+/] + ', '
+    end
+    return result.chomp(', ')
   end
 
   def character_count_updated?
