@@ -33,6 +33,16 @@ class GiftVoucherPaperPage
     return result.chomp(', ')
   end
 
+  def selected_denomination_matches? (default)
+    result = false
+    amount_elements.each do |amount|
+      default_amount = amount.text[/[0-9]+/] == default
+      if default_amount then result = default_amount && amount.parent.class_name == 'checked' end
+      if result then break end
+    end
+    return result
+  end
+
   def character_count_updated?
     message.length == character_count[/^[^\/]*/].to_i
   end

@@ -20,12 +20,13 @@ Feature: Customise a paper gift voucher
 
     Given a customer is choosing a paper gift voucher on <locale>
     Then the voucher denominations should be <denominations>
+    And the default selected denomination should be <default>
 
   Examples: Denominations available by locale
-    | locale | denominations                      |
-    | UK     | 500, 200, 150, 100, 80, 50, 40, 20 |
-    | DE     | 500, 200, 150, 100, 80, 50, 40, 20 |
-    | US     | 1000, 500, 200, 150, 100, 80, 50   |
+    | locale | denominations                      | default |
+    | UK     | 500, 200, 150, 100, 80, 50, 40, 20 | 100     |
+    | DE     | 500, 200, 150, 100, 80, 50, 40, 20 | 100     |
+    | US     | 1000, 500, 200, 150, 100, 80, 50   | 100     |
 
   Scenario: Message character count is updated
     Given an online customer has selected a paper gift voucher

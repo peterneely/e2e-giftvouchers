@@ -14,3 +14,7 @@ end
 Then(/^the voucher denominations should be (.*)$/) do |denominations|
   on(GiftVoucherPaperPage).denominations.should == denominations
 end
+
+When(/^the default selected denomination should be (.*)$/) do |default|
+  on(GiftVoucherPaperPage).selected_denomination_matches?(default).should be_true
+end
