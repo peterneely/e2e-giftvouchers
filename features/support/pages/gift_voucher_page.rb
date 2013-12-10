@@ -10,4 +10,12 @@ class GiftVoucherPage
   def vouchers_available?(vouchers_available)
     paper_button? && email_button?
   end
+
+  def select_paper
+    paper_button_element.when_visible.click
+  end
+
+  def select_email
+    email_button_element.when_visible.click
+  end
 end

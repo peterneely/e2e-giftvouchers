@@ -3,7 +3,7 @@ Feature: Customise a paper gift voucher
   I would like to be able to customise a paper gift voucher
   so that I can personalise my gift
 
-  Scenario Outline: Paper voucher holder design available by locale
+  Scenario Outline: 1: Paper voucher holder design available by locale
   Paper vouchers are not available to AU customers
 
     Given a customer is choosing a paper gift voucher on <locale>
@@ -15,7 +15,7 @@ Feature: Customise a paper gift voucher
     | DE     | hidden     |
     | US     | visible    |
 
-  Scenario Outline: Paper voucher denominations available by locale
+  Scenario Outline: 2: Paper voucher denominations available by locale
   Paper vouchers are not available to AU customers
 
     Given a customer is choosing a paper gift voucher on <locale>
@@ -28,12 +28,12 @@ Feature: Customise a paper gift voucher
     | DE     | 500, 200, 150, 100, 80, 50, 40, 20 | 100     |
     | US     | 1000, 500, 200, 150, 100, 80, 50   | 100     |
 
-  Scenario: Message character count is updated
+  Scenario: 3: Message character count is updated
     Given an online customer has selected a paper gift voucher
     And they are entering a message
     Then the message character count should update as they type
 
-  Scenario: A valid paper gift voucher can be added to the shopping bag
+  Scenario: 4: A valid paper gift voucher can be added to the shopping bag
   A default design is always pre-selected, so it is always valid.
 
     Given an online customer has selected a paper gift voucher
@@ -43,7 +43,7 @@ Feature: Customise a paper gift voucher
       | Your message   | Blank         | Non-blank and maximum of 255 characters, including spaces and punctuation |
     Then the customer should be able to add the voucher to their shopping bag
 
-  Scenario: An invalid voucher cannot be added to the shopping bag
+  Scenario: 5: An invalid voucher cannot be added to the shopping bag
     Given an online customer has selected a paper gift voucher
     And any detail is invalid
     Then the customer should see an error message

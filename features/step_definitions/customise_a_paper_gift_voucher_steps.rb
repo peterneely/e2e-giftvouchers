@@ -4,7 +4,7 @@ end
 
 Given(/^a customer is choosing a paper gift voucher on (.*)$/) do |locale|
   on(HomePage).navigate_to_gift_vouchers_for(locale)
-  on(GiftVoucherPage).paper_button
+  on(GiftVoucherPage).select_paper
 end
 
 Then(/^the voucher holder design should be (.*)$/) do |visible|

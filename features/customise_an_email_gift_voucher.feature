@@ -6,7 +6,7 @@ Feature: Customise an e-mail gift voucher
   Background: Email gift voucher selected
     Given an online customer has selected an email gift voucher
 
-  Scenario: Preview is updated
+  Scenario: 1: Preview is updated
     And the customer has updated any of the following information:
       | information   |
       | recipient     |
@@ -15,11 +15,11 @@ Feature: Customise an e-mail gift voucher
       | message       |
     Then the preview is updated immediately
 
-  Scenario: Message character count is updated
+  Scenario: 2: Message character count is updated
     And they are entering a message
     Then the message character count should update as they type
 
-  Scenario: A valid email gift voucher can be added to the shopping bag
+  Scenario: 3: A valid email gift voucher can be added to the shopping bag
   A default design is always pre-selected, so it is always valid
 
     And the following details are valid:
@@ -32,7 +32,7 @@ Feature: Customise an e-mail gift voucher
       | Delivery date             | On a specific date | Selected or non-blank, in the format DD MM YYYY, date is current or future but not past, displays as date input on mobile device |
     Then the customer should be able to add the voucher to their shopping bag
 
-  Scenario: An invalid voucher cannot be added to the shopping bag
+  Scenario: 4: An invalid voucher cannot be added to the shopping bag
     And any detail is invalid
     Then the customer should see an error message
     And they should not be allowed to add the voucher to their shopping bag

@@ -13,7 +13,7 @@ image_names:
 gift_voucher_email_page:
   recipient: ~full_name
   sender: ~full_name
-  delivery_date: ~Date.today
+#  delivery_date: ~Date.today
   message: ~words(number=20)
 
 gift_voucher_email_page_valid:

@@ -19,7 +19,7 @@ end
 PageObject::PageFactory.routes = {
     :default => [
         [HomePage, :navigate_to_gift_vouchers_for, 'UK'],
-        [GiftVoucherPage, :email_button],
+        [GiftVoucherPage, :select_email],
         [GiftVoucherEmailPage]
     ],
     :route_for_au => [
@@ -28,12 +28,12 @@ PageObject::PageFactory.routes = {
     ],
     :default_paper => [
         [HomePage, :navigate_to_gift_vouchers_for, 'UK'],
-        [GiftVoucherPage, :paper_button],
+        [GiftVoucherPage, :select_paper],
         [GiftVoucherPaperPage]
     ],
     :german_paper => [
         [HomePage, :navigate_to_gift_vouchers_for, 'DE'],
-        [GiftVoucherPage, :paper_button],
+        [GiftVoucherPage, :select_paper],
         [GiftVoucherPaperPage]
     ]
 }
